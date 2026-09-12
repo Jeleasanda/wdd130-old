@@ -1,0 +1,39 @@
+/* Step 4.2: Add CSS to main to limit its width */
+main {
+    width: 600px;
+    margin: 0 auto; /* This centers the main content */
+}
+
+/* Step 4.3: Add CSS declarations for aside */
+aside {
+    width: 300px;
+    margin: 20px auto; /* Centers the aside block */
+    border: 2px solid #333;
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Step 4.4: img inside aside */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Step 4.5: Change general img to main img */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Step 4.6: Change paragraph padding */
+p {
+    padding: 0;
+}
+
+/* Step 4.7: Footer styles */
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
+}
